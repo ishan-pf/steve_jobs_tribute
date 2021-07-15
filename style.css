@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the body element 
+like body color and margin */
+  
+body {
+    background-image: linear-gradient(to bottom, #4fe0a1, #00dbc3, #00d3de, #00c8ef, #3fbbf4, #4fbcf6, #5dbef7, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    margin: 5% 10%;
+}
+
+/* Styling the Title and giving 
+shadow to the title */
+.glass{
+    padding:5% 10%;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    backdrop-filter: blue(2rem);
+    background: linear-gradient(to right top,rgba(255, 255, 255, 0.7),rgba(255, 255, 255,0.3));
+    border-radius:2rem;
+    z-index: 3;         
+}
+#title {
+    text-align: center;
+    /* text-shadow: 10px 10px 10px #C449C2; */
+    color:#161D6F;
+    background-color: #98DED9;
+    margin-bottom: 50px;
+    font-size: 10vh;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5rem;
+    border:5px solid #4F98CA;
+    
+}
+
+/* Setting width and display 
+type of image */
+img {
+    display: block;
+    width: 70%;
+    border-radius:50%;
+    border:5px solid #3C5186;
+    margin: 10px auto;
+    z-index:3;
+}
+
+/* Setting font color and font 
+size of the image-caption */
+.cap{
+    
+    padding:2rem;
+    background-color: #78DEC7;
+    border-radius: 1rem;
+    border:2px solid #EFEFEF;
+    z-index:3;
+}
+#caption {
+    font-size: 17px;
+    font-family: Gill Sans;
+    color: #2B2B2B;
+    z-index:3;
+    
+}
+/* Styling the content of the page like-
+padding, font-soze, font color etc.*/
+div#tribute-data {
+    background-color: rgb(46, 139, 87, 0.25);
+    box-shadow: 10px 10px 10px #71EFA3;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 25px 25px;
+    margin: 11px;
+    margin-top: 50px;
+    border-radius:2rem;
+    z-index:3;
+}
+
+/* Styling the title of the content */
+h1.title-APJ {
+    margin:20px 30px 40px;
+    font-size: 35px;
+    color: rgb(240, 240, 240);
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+    z-index:3;
+}
+
+/* Styling the link provided at the end */
+#tribute-link {
+    text-decoration: none;
+    color: black;
+    z-index:3;
+}
+.circle{
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.1));
+    position:absolute;
+    height: 13rem;
+    width: 13rem;
+    border-radius:50%;
+    z-index: 1;
+    opacity:0.5;
+}
+
+.circle1 {
+top: 3%;
+right: 5%;
+}
+
+.circle2{
+bottom: 3%;
+left: 5%;
+}
+.circle3{
+top: 90%;
+right: 7%;
+}
+
+.circle4{
+bottom: -110%;
+left: 40%;
+opacity:0.3;
+}
+.circle5{
+bottom: -160%;
+right: 3%;
+}
+.circle6{
+bottom: -200%;
+left: 2%;
+}
+.wiki{
+text-decoration: none;
+}
